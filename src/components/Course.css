@@ -41,8 +41,6 @@
     height: 0;
     border-top: 20px solid rgba(175, 175, 175, 0.795);
     border-right: 25px solid transparent;
-    /* position: absolute; */
-    /* background-color: pink; */
 }
 
 .course-list-row {

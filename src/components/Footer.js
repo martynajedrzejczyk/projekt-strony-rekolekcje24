@@ -26,6 +26,13 @@ export default function Footer() {
                 <textarea className="input-textarea" placeholder="treść" />
                 <div className="send-row">
                     <submit type="button">Wyślij</submit>
+                    <div className="send-icon">
+                        <link
+                            rel="stylesheet"
+                            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+                        />
+                        <span class="material-symbols-outlined">mail</span>
+                    </div>
                 </div>
             </form>
             <div className="footer-right">
