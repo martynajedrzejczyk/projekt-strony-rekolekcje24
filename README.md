@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+## Projekt na studia
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projekt polega na odwzorowaniu strony podanej jako zdjęcie.
+Strona jest responsywna.
+
+![prop3](https://github.com/martynajedrzejczyk/projekt-strony-rekolekcje24/assets/77231019/b3e17feb-4cad-4631-9117-d07dd147e8c3)
 
 ## Available Scripts
 
