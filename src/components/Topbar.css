@@ -1,0 +1,33 @@
+.topbar-header {
+    width: 100%;
+}
+
+.fb-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom-width: 2px;
+    border-style: dashed;
+    border-color: gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+}
+
+.fb-row-logo {
+    height: 18px;
+    margin-left: 142px;
+}
+
+.fb-row-lbl {
+    margin-left: 16px;
+    color: gray;
+    font-size: small;
+}
+
+@media (max-width: 1024px) {
+    .fb-row-logo {
+        margin-left: 10px;
+    }
+}

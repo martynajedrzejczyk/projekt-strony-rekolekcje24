@@ -1,0 +1,13 @@
+.menu-option {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    height: 60px;
+    padding: 0 10px;
+    font-size: small;
+    color: gray;
+}
+
+.menu-option-first {
+    border-right: gray solid 1px;
+}

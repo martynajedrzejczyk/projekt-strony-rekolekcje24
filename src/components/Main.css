@@ -1,0 +1,12 @@
+.main-container {
+    background: repeating-linear-gradient(
+        -55deg,
+        rgba(187, 187, 187, 0.5),
+        rgba(187, 187, 187, 0.5) 5px,
+        rgba(204, 204, 204, 0.5) 5px,
+        rgba(204, 204, 204, 0.5) 10px
+    );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

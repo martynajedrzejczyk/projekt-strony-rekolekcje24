@@ -1,0 +1,159 @@
+.info-container {
+    width: 75%;
+    /* background-color: blue; */
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.left-news {
+    width: 25%;
+    /* background-color: aquamarine; */
+}
+
+.left-header {
+    width: 80%;
+    margin: auto;
+    /* background-color: blue; */
+    color: white;
+    background: linear-gradient(0.25turn, #6ac3df, #76d1ee, #6ac3df);
+    padding: 15px 0px;
+}
+
+.right-news {
+    width: 70%;
+    /* background-color: pink; */
+}
+
+.courses-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 20px solid blue;
+    border-right: 25px solid transparent;
+    position: absolute;
+}
+
+.incoming-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.incoming-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.incoming-title {
+    margin-left: 30px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.what-to-do-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.what-to-do {
+    /* background-color: rgb(193, 170, 215); */
+    width: 49%;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.triangle-topleft-yellow {
+    width: 0;
+    height: 0;
+    border-top: 20px solid rgb(255, 204, 0);
+    border-right: 25px solid transparent;
+    position: absolute;
+}
+
+.what-to-do-header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.what-to-do-title {
+    margin-left: 30px;
+}
+
+/* /////////////////////////////////// */
+
+@media (max-width: 1300px) {
+    .info-container {
+        width: 90%;
+    }
+    .right-news {
+        width: 90%;
+    }
+    .left-news {
+        min-width: 230px;
+    }
+}
+
+@media (max-width: 900px) {
+    .info-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .left-news {
+        margin-bottom: 20px;
+        width: 95%;
+    }
+
+    .quotes-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .right-news {
+        width: 95%;
+    }
+    .left-header {
+        width: 100%;
+    }
+}
+
+@media (max-width: 520px) {
+    .what-to-do-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .what-to-do {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .courses-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .quotes-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-header {
+        width: 70%;
+    }
+}

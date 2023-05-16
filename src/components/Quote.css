@@ -1,0 +1,29 @@
+.quote {
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.quote-text {
+    color: #4a889b;
+    text-align: left;
+}
+
+.quote-comment {
+    color: gray;
+    font-size: small;
+    text-align: left;
+}
+
+.quote-comment:hover {
+    color: #4a889b;
+    cursor: pointer;
+}
+
+@media (max-width: 900px) {
+    .quote {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

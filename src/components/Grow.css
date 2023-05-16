@@ -1,0 +1,30 @@
+.grow-container {
+    width: 28%;
+    background: linear-gradient(0.25turn, #c4890c, #dfb55b, #c4890c);
+    color: white;
+    box-shadow: 0px 4px 5px -1px rgb(109, 109, 109);
+    padding: 5px 0;
+}
+
+.grow-title {
+    font-weight: 600;
+}
+
+@media (max-width: 760px) {
+    .grow-container {
+        width: 32%;
+    }
+}
+
+@media (max-width: 520px) {
+    .grow-container {
+        width: 60%;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .grow-container {
+        width: 218px;
+    }
+}
