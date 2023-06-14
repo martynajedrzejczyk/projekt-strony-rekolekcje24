@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/projekt-strony-rekolekcje24/static/css/main.48bcab94.css",
+    "main.js": "/projekt-strony-rekolekcje24/static/js/main.c6199e60.js",
+    "static/js/787.ec89e937.chunk.js": "/projekt-strony-rekolekcje24/static/js/787.ec89e937.chunk.js",
+    "static/media/logo-rekolekcje24.pl.png": "/projekt-strony-rekolekcje24/static/media/logo-rekolekcje24.pl.e156e514f8b42ffe2d3b.png",
+    "static/media/what-to-do.png": "/projekt-strony-rekolekcje24/static/media/what-to-do.9ef274b5cbd60886145d.png",
+    "static/media/i-like-it-header.png": "/projekt-strony-rekolekcje24/static/media/i-like-it-header.d9a744d76d073af121a0.png",
+    "index.html": "/projekt-strony-rekolekcje24/index.html",
+    "main.48bcab94.css.map": "/projekt-strony-rekolekcje24/static/css/main.48bcab94.css.map",
+    "main.c6199e60.js.map": "/projekt-strony-rekolekcje24/static/js/main.c6199e60.js.map",
+    "787.ec89e937.chunk.js.map": "/projekt-strony-rekolekcje24/static/js/787.ec89e937.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48bcab94.css",
+    "static/js/main.c6199e60.js"
+  ]
+}
